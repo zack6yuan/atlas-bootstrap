@@ -9,17 +9,6 @@ body {
   align-items: center;
 }
 
-nav {
-  list-style-type: none;
-  margin-left: 160px;
-  margin-top: 25px;
-}
-
-nav li {
-  display: inline;
-  margin: 10px;
-}
-
 .testimonials {
   color: #000000;
 }
