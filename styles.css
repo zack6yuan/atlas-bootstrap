@@ -20,3 +20,18 @@ body {
 .contact {
   color: #000000;
 }
+
+header a h4 {
+  font-family: 'Corporation Games';
+  color: white;
+}
+
+header a h4:active {
+  color: red;
+  transition: 0.2s ease-in-out;
+}
+
+.footer h4 {
+  font-family: 'Corporation Games';
+  color: white;
+}

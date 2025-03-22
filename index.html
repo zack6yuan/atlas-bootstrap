@@ -15,67 +15,85 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="images/favicon.ico">
 </head>
-<header>
-  <h2>this is the header</h2>
+<header class="pt-2 pl-2">
+  <a href="index.html">
+    <h4>MechanicMastery</h4>
+  </a>
 </header>
 <body>
   <!-- Hero Section -->
-  <div class="text-center pt-5 pb-5">
-    <h1>MECHANICS SIMPLIFIED</h1>
-    <h3>UNLOCK YOUR FULL POTENTIAL</h3>
+  <div class="text-center pt-5 pb-4">
+    <h2>MECHANICS SIMPLIFIED</h2>
+    <h4
+  >UNLOCK YOUR FULL POTENTIAL</h4>
     <img src="images/SSL.png" alt="SuperSonic Lengend Logo">
   </div>
   <!-- Testimonials Section -->
   <!-- Add the arrows -->
-  <div class="testimonials bg-white text-center pt-5 pb-5">
-    <h1>TESTIMONIALS</h1>
-    <p>
-      "The depth of knowledge on this site is astounding.
-      I'm constantly learning new things, and the community
-      is incredibly helpful."
-    </p>
+  <div class="row">
+    <div class="testimonials bg-white text-center pt-5 pb-5 mr-2">
+      <h1>TESTIMONIALS</h1>
+      <p class=>
+        "The depth of knowledge on this site is astounding.
+        I'm constantly learning new things, and the content
+        is incredibly helpful."
+      </p>
+    </div>
   </div>
-  <div class="level-up pt-5 pb-5">
-    <h1 class="ml-sm-5 mt-sm-5">LEVEL UP</h1>
-    <h1 class="ml-sm-5">YOUR GAME</h1>
+  <div class="level-up pt-5 pb-5 pl-5">
+    <h1 class="ml-sm-5 mt-sm-5">Level Up</h1>
+    <h3 class="ml-sm-1">Your Game</h1>
     <aside>
-      A comprehensive guide to mastering Rocket League’s
+      A comprehensive guide to mastering Rocket League's
       core mechanics, advanced techniques, and strategic plays.
     </aside>
   </div>
   <div class="training-grounds bg-white pt-5 pb-5 text-center">
     <h1>TRAINING GROUNDS</h1>
-    <p>Click to learn more</p>
+    <a class="text-decoration-none" href="index.html">
+      <p>Click to learn more</p>
+    </a>
     <!-- Add these CSS colors, as these ones are ugly -->
-    <div class="row text-center">
-      <div class="col">
-        <h3>Silver</h4>
+    <div class="row">
+      <div class="card col-3">
+        <h3>Silver</h3>
+        <img src="images/slider.png" alt="">
+        <img src="images/slider.png" alt="">
         <h4>Rotations</h4>
-        <h4>Difficulty: <span class="text-success">Beginner</span></h4>
+        <p>Staying in position</p>
+        <p>Difficulty: <span class="text-success">Beginner</span></p>
       </div>
-      <div class="col">
+      <div class="card col-3">
         <h3>Platinum</h3>
+        <img src="images/slider.png" alt="">
+        <img src="images/slider.png" alt="">
         <h4>Speed Flips</h4>
-        <h4>Difficulty: <span class="text-warning">Intermediate</span></h4>
+        <p>Maximum Speed</p>
+        <p>Difficulty: <span class="text-warning">Intermediate</span></p>
       </div>
-      <div class="col">
+      <div class="card col-3">
         <h3>Champion</h3>
+        <img src="images/slider.png" alt="">
+        <img src="images/slider.png" alt="">
         <h4>Flip Resets</h4>
-        <h4>Difficulty: <span class="text-danger">Advanced</span></h4>
+        <p>Aerial Essentials</p>
+        <p class="">Difficulty: <span class="text-danger">Advanced</span></p>
       </div>
     </div>
   </div>
   <div class="settings pt-5 pb-5">
     <h4 class="text-center">CONTROLLER SETTINGS AND BINDINGS</h4>
-    <p class="text-center">Click to learn more</p>
+    <a class="text-center text-decoration-none" href="index.html">
+      <p>Click to learn more</p>
+    </a>
     <p class="text-start pl-5">
-      We help ensure your binding and <br> sensitivity
+      We help ensure your bindings and <br> sensitivity
       are dialed for optimal <br> performance
     </p>
     <img class="" src="images/slider.png" alt="Slider Image">
   </div>
   <div class="contact bg-white text-center pt-5 pb-5">
-    <h1>CONNECT WITH US</h1>
+    <h1>Connect With Us!</h1>
     <div class="col">
       <p>NAME</p>
       <input type="text" class="mb-3">
@@ -86,14 +104,16 @@
     </div>
     <button class="mt-4">SUBMIT</button>
   </div>
-  <div class="footer pt-5 pb-5">
-    <h3 class="ml-sm-4 mt-sm-4">COMPANY NAME</h3>
-    <div class="socials">
+  <div class="footer pt-5 pb-4 ml-4 mt-5">
+    <a href="index.html">
+      <h4>MechanicMastery</h4>
+    </a>
+    <div class="socials d-flex mr-5">
       <img src="images/facebook.png" alt="Facebook Logo">
       <img src="images/twitter.png" alt="Twitter Logo">
       <img src="images/instagram.png" alt="Instagram">
     </div>
-    <p class="text-center">Copyright © Company Name 2025</p>
+    <p class="text-center">Copyright ©MechanicMastery 2025</p>
   </div>
 </body>
 </html>
