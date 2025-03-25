@@ -6,21 +6,24 @@
   <title>MechanicMastery - Home</title>
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
-
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="images/favicon.ico">
 </head>
+<!-- Breakpoints -->
+<!-- Extra Small begins at 0px to 576px -->
+<!-- Small (sm) begins at 576px -->
+<!-- Medium (md) begins at 768px -->
+<!-- Large (lg) begins at 992px -->
+<!-- Extra Larg (xl) begins at 1200px -->
 <header class="pt-sm-2 pl-sm-2">
   <a href="index.html">
-    <h4>MechanicMastery</h4>
+    <h4 class="ml-md-1">MechanicMastery</h4>
   </a>
 </header>
-<!-- Small begins at 576px -->
 <body>
   <!-- Hero Section -->
   <div class="text-center pt-5 pb-4">
@@ -33,7 +36,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="testimonials bg-white text-center">
-        <h1 class="pt-sm-5">TESTIMONIALS</h1>
+        <h1 class="pt-sm-5">Testimonials</h1>
         <p class="pt-sm-3 pb-sm-5 col-sm-7 mx-auto">
           "The depth of knowledge on this site is astounding.
           I'm constantly learning new things, and the content
@@ -42,27 +45,27 @@
       </div>
     </div>
   </div>
-  <div class="row level-up pt-sm-5 pb-sm-5 pl-sm-5">
+  <div class="row pt-sm-4 pb-sm-5 pl-sm-5">
     <div class="col">
-      <h1 class="ml-sm-4 mt-sm-3">LEVEL UP</h1>
-      <h2 class="ml-sm-4">YOUR GAME</h2>
+      <h1 class="ml-sm-4 mt-sm-3">Level Up</h1>
+      <h2 class="ml-sm-4">Your Game.</h2>
     </div>
-    <div class="col mt-sm-3 mr-sm-4">
+    <div class="col mt-sm-3 mr-sm-4 mt-md-4">
       <aside>
         A comprehensive guide to mastering Rocket League's
-        advanced techniques, and strategic plays.
+        advanced techniques and strategic plays.
       </aside>
     </div>
   </div>
   <div class="training-grounds bg-white pt-5 pb-5 text-center">
-    <h1>TRAINING GROUNDS</h1>
+    <h1>Training Grounds</h1>
     <a class="text-decoration-none" href="index.html">
-      <p class="mt-sm-4">Click to learn more</p>
+      <button class="btn text-white bg-info mt-sm-4 mb-md-3">Click to learn more</button>
     </a>
     <!-- Add these CSS colors, as these ones are ugly -->
-     <div class="container pl-sm-1 ml-sm-5">
-      <div class="row">
-        <div class="card mr-sm-5 mt-sm-4">
+     <div class="container ml-sm-4 mb-md-5">
+      <div class="row ml-md-3">
+        <div class="col offset-sm-2 col-sm-8 col-md-5 card mr-sm-5 mt-sm-4 mb-md-4">
           <h4 class="mt-sm-2">Silver</h4>
           <img src="images/rotations.gif" alt="">
           <!-- img src="images/cars.png" alt="" -->
@@ -70,7 +73,7 @@
           <p>Staying in position</p>
           <p>Difficulty: <span class="text-success">Beginner</span></p>
         </div>
-        <div class="card mr-sm-5 mt-sm-4">
+        <div class="col offset-sm-2 col-sm-8 col-md-5 card mr-sm-5 mt-sm-4 mb-md-4">
           <h4 class="mt-sm-2">Platinum</h4>
           <img src="images/speedflip.gif" alt="">
           <!-- img src="images/cars.png" alt="" -->
@@ -78,7 +81,7 @@
           <p>Maximum Speed</p>
           <p>Difficulty: <span class="text-warning">Intermediate</span></p>
         </div>
-        <div class="card mr-sm-5 mt-sm-4">
+        <div class="col offset-sm-2 col-sm-8 col-md-5 card mr-sm-5 mt-sm-4 mb-md-4">
           <h4 class="mt-sm-2">Diamond</h4>
           <img src="images/flick.gif" alt="">
           <!-- img src="images/cars.png" alt="" -->
@@ -86,7 +89,7 @@
           <p>Ground Mechanics</p>
           <p>Difficulty: <span class="text-warning">Intermediate</span></p>
         </div>
-        <div class="card mt-sm-4 mr-sm-5">
+        <div class="col offset-sm-2 col-sm-8 col-md-5 card mr-sm-5 mt-sm-4 mb-md-4">
           <h4 class="mt-sm-2">Champion</h4>
           <img src="images/reset.gif" alt="">
           <!-- img src="images/cars.png" alt="" -->
@@ -98,10 +101,10 @@
      </div>
   </div>
   <div class="settings pt-sm-5 pb-sm-5">
-    <h4 class="text-center">Controller Settings and Bindings</h4>
+    <h3 class="text-center">Controller Settings and Bindings</h3>
     <div class="row">
       <div class="col-sm-6 mt-sm-4 ml-sm-3">
-        <p class="ml-sm-4">
+        <p class="col offset-md-3">
           We help ensure your bindings and <br> sensitivity
           are dialed for optimal <br> performance.
         </p>
@@ -110,10 +113,10 @@
         <img class="mt-sm-4" src="images/slider.png" alt="Slider Image">
       </div>
     </div>
-    <button class="d-flex mx-auto mt-4 mb-4">Click to learn more</button>
+    <button class="btn bg-info text-white d-flex mx-auto">Click to learn more</button>
   </div>
   <div class="contact bg-white text-center pt-sm-5 pb-sm-5">
-    <h1>Connect With Us!</h1>
+    <h1 class="mb-md-4">Connect With Us!</h1>
     <div class="col">
       <p>Name</p>
       <input type="text" class="mb-sm-3">
@@ -122,17 +125,17 @@
       <p>Message</p>
       <input type="text">
     </div>
-    <button class="mt-sm-4">SUBMIT</button>
+    <button class="btn bg-info text-white mt-sm-4">Submit</button>
   </div>
   <div class="container">
-    <div class="row footer mt-sm-5">
+    <div class="row footer mt-sm-5 mt-md-5 mb-md-5">
       <div class="col">
         <a href="index.html">
           <h4 class="mt-sm-5 pr-sm-5">MechanicMastery</h4>
         </a>
       </div>
       <div class="col">
-        <div class="socials mt-sm-5 ml-sm-5">
+        <div class="socials mt-sm-5 ml-sm-5 mb-md-2">
           <a href="index.html">
             <img  class="mr-sm-3" src="images/facebook.png" alt="Facebook Logo">
           </a>
