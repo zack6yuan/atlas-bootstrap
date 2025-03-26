@@ -1,9 +1,16 @@
+* {
+  border: 1px solid red;
+}
 
 body {
   color: white; 
   background-color: rgb(0, 0, 0);
   font-family: Coolvetica;
   font-style: italic;
+}
+
+.navbar-nav .nav-link:hover {
+  color: blue;
 }
 
 .testimonials {
