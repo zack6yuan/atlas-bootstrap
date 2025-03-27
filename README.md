@@ -1,5 +1,5 @@
-# atlas-bootstrap
-## MechanicMastery
+# MechanicMastery
+## Implement a Design With Bootstrap
 ### For this project, we were required to implement a design with Bootstrap. After completing my website, Bootstrap is a tool that I plan to implement into my web-development.
 ### What I learned:
 * How to configure containers in Bootstrap
