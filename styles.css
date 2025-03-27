@@ -1,6 +1,10 @@
-
+/* 
+    All styles used here are due to:
+    Bootstrap's lack of colors,
+    Access to hover, active, and focus conditions,
+    Setting font family, style, opacity, and transitions
+*/
 body {
-  /* used because the bg-dark is not pure black */
   background-color: #000000;
   font-family: Coolvetica;
   font-style: italic;
@@ -41,6 +45,34 @@ body {
 header a h4:active {
   color: red;
   transition: 0.2s ease-in-out;
+}
+
+.bronze:hover {
+  color: #CD7F32;
+}
+
+.silver:hover {
+  color: #878787;
+}
+
+.gold:hover {
+  color: #ffb300;
+}
+
+.plat:hover {
+  color: #00baaa;
+}
+
+.diamond:hover {
+  color: #00a6ff;
+}
+
+.champ:hover {
+  color: #b300ff;
+}
+
+.gc:hover {
+  color: #ff0000;
 }
 
 .socials a img:hover {
