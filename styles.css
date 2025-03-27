@@ -1,10 +1,7 @@
-* {
-  border: 1px solid red;
-}
 
 body {
-  color: white; 
-  background-color: rgb(0, 0, 0);
+  /* used because the bg-dark is not pure black */
+  background-color: #000000;
   font-family: Coolvetica;
   font-style: italic;
 }
@@ -33,9 +30,4 @@ header a h4 {
 header a h4:active {
   color: red;
   transition: 0.2s ease-in-out;
-}
-
-.footer h4 {
-  font-family: 'Corporation Games';
-  color: white;
 }
