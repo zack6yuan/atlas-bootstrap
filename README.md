@@ -1,6 +1,8 @@
 # MechanicMastery
 ## Implement a Design With Bootstrap
-### For this project, we were required to implement a design with Bootstrap. After completing my website, Bootstrap is a tool that I plan to implement into my web-development.
+### For this project, we were required to implement a design with Bootstrap. After completing my website, Bootstrap is a tool that I plan to implement into my 
+### MechanicMastery is a tool that can be used by Rocket League players of all ranks to improve their in-game mechanics and overall game-sense. With training videos, controller configurations, and more, MechanicMastery is here to help you.
+web-development.
 ### What I learned:
 * How to configure containers in Bootstrap
 * How to set rows and columns
