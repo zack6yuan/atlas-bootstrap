@@ -6,4 +6,4 @@
 * How to set rows and columns
 * Set text / background / border colors
 * Change position (offset) of elements per display size in px.
-### Visit my site [here!] (https://zack6yuan.github.io/atlas-bootstrap/)
+### Visit my site here! https://zack6yuan.github.io/atlas-bootstrap/
